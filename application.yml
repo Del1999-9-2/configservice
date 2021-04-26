@@ -14,3 +14,8 @@ spring:
   profiles: mybatis
   application:
     name: configservice-mybatis
+    #数据库连接信息
+  datasource:
+    url: jadc:mysql://127.0.0.1:3306/newer?userSSL=false
+    username: root
+    password: root
